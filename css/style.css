@@ -1,0 +1,63 @@
+/*
+    Bootstrap colors: 
+    light: #f8f9fa
+    dark:  #343a40
+*/
+
+:root{
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Press Start 2P", "Courier New";
+}
+
+h2{
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--light);
+}
+
+h1, h2, h3, figcaption, footer{
+    text-align: center;
+}
+
+.jumbotron,
+body {
+  color: var(--light) !important;
+  background-color: var(--dark);
+}
+
+img{
+    width: 100%;
+}
+
+div.col-md-4{
+    border-left: 1px dashed var(--light);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+  border-bottom: 1px var(--light) solid;
+}
+
+header {
+  margin-top: 60px;
+}
+
+nav li {
+  margin-left: 20px;
+  border-radius: 10px;
+  border-left: 1px dotted var(--light);
+  border-right: 1px dotted var(--light);
+}
