@@ -62,7 +62,8 @@ nav {
   top: 0;
   width: 100%;
   overflow: hidden;
-  border-radius: 100px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   border-bottom: 1px var(--light) solid;
 }
 
@@ -75,4 +76,5 @@ nav li {
   border-radius: 10px;
   border-left: 1px dotted var(--light);
   border-right: 1px dotted var(--light);
+  
 }
